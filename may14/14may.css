@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital@1&family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,200;1,300&family=Noto+Sans:ital@1&family=Poppins:wght@200&display=swap');
+.main-heder{
+background-color:rgb(193, 242, 247);
+}
+.backgroundcolor{
+	background-color: rgb(
+232, 193, 151
+);
+	
+}
+.bgcolor{
+	background-color: rgb(
+193, 133, 199
+);
+}
+.backgroundfont{
+	background-color: rgb(
+235, 232, 148
+);
+}
+
+.font1{
+font-family: 'Montserrat', sans-serif;	
+}	
+
+.color{
+	color: rgb(255,0,0);
+}
+
+.font{
+font-family: 'Noto Sans', sans-serif;
+}
+.text1{
+	color: rgb(88, 24, 69 );
+}
+
+	
+.spancolor{
+	background-color: rgb(255, 43, 57);
+}
+
+.text{
+	color: rgb(255,0,0);
+}
+input[type="text"]{
+color: rgb(
+0,0,255
+);
+background-color: rgb(128, 232, 147);
+}
+a[href="paytm.html"]{
+	color: rgb(0,255,0);
+}
+a[href="phone pay.html"]{
+	color: rgb(0,255,0);
+}
+	
