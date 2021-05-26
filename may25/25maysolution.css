@@ -1,0 +1,36 @@
+ul{
+	background-color: rgb(155,155,155);
+	padding: 15px 0px;
+	
+	
+	text-align: center
+
+}
+h3{
+	border-bottom: 2px solid rgb(0,0,0)
+
+
+}
+.mohit{
+	margin: 30px
+
+}
+li{
+	display: inline;
+	border-bottom: 1.5px solid rgb(0,0,0)
+	
+
+	
+}
+a{
+
+	color: rgb(0,0,0);
+	margin: 50px
+
+}
+.mohit1{
+	margin: 30px
+}
+p{
+	color: rgb(50,50,50);
+}
