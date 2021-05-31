@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Philosopher&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;1,200&display=swap');
+h3{
+	border-bottom: 1px solid rgb(255,255,255)
+}
+.trips{
+	background-color: white;
+	text-align: center;
+	
+}
+div.trips>h2{
+	color: black;
+}
+body{
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+}
+img{
+	width: 300px
+	
+
+}
+.mohit{
+	
+}
+li{
+	display: inline-block;
+	font-size: 20px; 
+	margin: 0 0px ;
+}
+.prince{
+	height: 10vh;
+	background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('home.jpg');
+	background-position:unset;
+	
+	padding: 2px
+}
+
+.prince .nav1 a{
+	color: rgb(255,255,255);
+	text-decoration: none;
+	margin-top: 20px;
+	padding: 30px;
+}
+
+/*a{
+	color: rgb(255,255,255);
+	padding: 30px
+	text-decoration: none;
+	margin-top: 20px
+
+}*/
+.prince1{
+font-family: 'Philosopher', sans-serif;
+}
+
+
+
+
+
+
+	

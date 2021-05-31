@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;1,200&display=swap');
+.mohit1{
+	
+border-bottom: 2px solid rgb(255,255,255)
+
+}
+.prince{
+	font-family: 'Montserrat', sans-serif;
+}
+h1,h2,p{
+	color: rgb(255,255,255);
+}
+
+div.mohit{
+	background-color: rgb(158, 239, 255);
+	padding: 20px,0,0,20px
+}
+.mohit3{
+	background-color: rgb(255,0,0);
+	color: rgb(255,255,255);
+}
+
+li{
+	display: inline-block;
+	font-size: 20px; 
+	margin: 0 0px ;
+}
+.prince{
+	height: 10vh;
+	background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('home.jpg');
+	background-position:unset;
+	
+	padding: 2px
+}
+
+.prince .nav1 a{
+	color: rgb(255,255,255);
+	text-decoration: none;
+	margin-top: 20px;
+	padding: 30px;
+}
+h2{
+	border-bottom: 1px solid white;
+}
+
+/*a{
+	color: rgb(255,255,255);
+	padding: 30px
+
+}*/
