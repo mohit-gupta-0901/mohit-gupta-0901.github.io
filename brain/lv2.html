@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body class="color">
+	<audio id="music">
+	<source src="sound.mp3" type="audio/mpeg">
+</audio>
+<img src="restart.jpg"width="30"onclick="window.location='lv2.html'"class="float">
+<center>
+	<h1>lv.2</h1>
+</center>
+ 	
+	<p class="textcolor">find the real balloon number</p>
+	<img src="bolloon.gif" style="width:50px">
+
+	<img class="a" src="bolloon.gif"width="50px">
+
+	<img class="b"src="bolloon.gif"width="50px"><br>
+
+	<img  class="margin" src="bolloon.gif"width="50px" >
+
+	<img class="c" src="bolloon.gif" style="width:50px">
+
+	<img class="d" id="bolloon" src="bolloon.gif" style="width:50px"onclick="document.getElementById('bolloon').src='',pop()"><br>
+
+	<img src="bolloon.gif" style="width:50px">
+
+	<img class="e"src="bolloon.gif" style="width:50px">
+
+	<img class="f"src="bolloon.gif" style="width:50px">
+	<br>
+	<input id="numb">
+	<button type="button" onclick="myFunction()">Submit</button>
+	<p id="demo"></p>
+	
+	<script>
+	var audio =document.getElementById("music");
+	function pop () {
+		audio.play()
+	}
+	
+function myFunction() {
+  var x, text;
+
+  x = document.getElementById("numb").value;
+
+  if (x==6) {
+    
+  window.alert("your answer is correct")
+  window.location="lv3.html";
+  } 
+  else {
+   
+      window.alert("your answer is wrong!")
+      window.location="lv1.html";
+  }
+  document.getElementById("demo").innerHTML = text;
+
+	}
+</script>
+
+<style >
+	.a,.b,.c,.d,.e,.f{
+		margin-left: 30px;
+	}
+	.color{
+	background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.001)), url('./sky.jpg');
+	height: 100vh;
+	background-size: cover;
+}
+	.textcolor{
+	color: white;
+	}
+ 	h1{color:red;}
+	.float{float: right}
+</style>
+	
+</body>
+
+</html>

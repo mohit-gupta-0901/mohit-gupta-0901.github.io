@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<body class="color">
+  <img src="restart.jpg"width="30"onclick="window.location='lv1.html'"class="float">
+  <center>
+    <h1>lv.1</h1>
+<p>How many hairs on the child's head</p>
+<img src="child1.jpg"width="300px"id="child"><style>#child{padding-top: 20px;}</style>
+<br>
+<input id="numb">
+
+<button type="button" onclick="myFunction()">Submit</button>
+
+<p id="demo"></p>
+
+
+<script>
+function myFunction() {
+  var x, answer;
+
+  x = document.getElementById("numb").value;
+
+  if (x==3) {
+    
+      window.alert("your answer is correct")
+  window.location="lv2.html";
+  } 
+  else {
+    answer = "your answer is wrong!";
+    
+  }
+  document.getElementById("demo").innerHTML = answer;
+
+}
+
+</script>
+</center>
+<img src="trimmer.jpg"width="20px"onclick="document.getElementById('child').src='child.jpg'"class="child">
+<style>
+  .child{float: right;margin-top: 130px;}
+  h1{color:red;}
+  .float{float: right}
+</style>
+
+</body>
+</html> 
